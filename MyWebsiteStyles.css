@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(238, 236, 234);
+}
+
+.banner-image {
+    background-image: url('Profilephoto1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 0.15em;
+    text-align: center;
+    margin-right: 300px;
+    margin-top: 300px;
+    padding: 20px 55px 20px 70px;
+}
+
+.navbar-nav {
+    font-family: Tahoma, sans-serif;
+    letter-spacing: 0.15em;
+    color: white;
+}
+
+ul li a:hover{
+    background:#e458bc;
+}
+
+.footer {
+    background-color: white;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.card {
+    padding: 20px;
+}
+
+#outline {
+    color: white;
+	text-shadow: 
+        -1px 1px 3px #000,
+		1px 1px 3px #000,
+		2px -1px 0 #000,
+		-1px -1px 0 #000;
+}
+
+.btn-secondary {
+    width: 50%;
+    margin: 0 auto;
+    display:block;
+}
+
+.btn-secondary:hover {
+    background:#e458bc;
+}
+
+.card-image {
+    width: 100%!important;
+    height: 200px!important;
+    object-fit:contain;
+}
+
+form {
+    margin: 50px;
+}

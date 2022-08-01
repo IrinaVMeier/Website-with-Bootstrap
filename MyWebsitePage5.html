@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irina V Meier, PhD</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="MyWebsiteStyles.css">
+</head>
+<body>
+    <a class="btn btn-light" href="MyWebsite.html">Main Page</a>
+    <a class="btn btn-light" href="MyWebsitePage2.html">Teaching</a>    
+    <a class="btn btn-light" href="MyWebsitePage3.html">Writing</a>
+    <a class="btn btn-light" href="MyWebsitePage4.html">Coding</a>
+
+    <div class="container"><br>
+
+    <h1>Get in touch</h1>
+
+        <form class="form-horizontal" action="/action_page.php">
+            <div class="form-group">
+                <label class="control-label col-sm-4" for="firstAndLastName">First and last name:</label>
+                    <div class="col-sm-10">
+                        <input type="text" name="firstAndLastName" placeholder="Enter first and last name">
+                    </div>
+            </div><br>            
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-4">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+            </div><br>
+        <select>
+            <option selected>Choose topic of your message</option>
+            <option value="1">Teaching</option>
+            <option value="2">Research</option>
+            <option value="3">Coding</option>
+            <option value="4">Other</option>
+        </select><br><br>            
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type message here"></textarea>
+            </div><br>
+
+            <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+    </div>
+    
+    <script scr="node_modules/jquery/dist/jquery.js"></script>
+    <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
