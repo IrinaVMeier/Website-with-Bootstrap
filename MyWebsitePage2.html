@@ -48,7 +48,7 @@
         </div> <br>
             
             <div class="card text-center">
-            <div class="card-body">
+                <div class="card-body">
                 <h5 class="card-title">Education</h5><br>
                     <table class="table table-striped">
                     <tr>
@@ -81,12 +81,111 @@
                         <td>2001-2006</td>
                     </tr>
                     </table>
+                </div>
+            </div><br>
+            
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">"TALK COMRADES"</h5><br>
+                        <p class="card-text">This project aims to engage you in conversation practice and cultural exchange 
+                        with native speakers of Russian. You'll have an opportunity to step out of your comfort zone, ask 
+                        questions and get answers to get first-hand information about life in Russia and other Russian-speaking 
+                        countries. Fill out the form below to sign up.</p><br>
+                    <table id="list" class="table table-primary table-striped">
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Russian Language Level</th>
+                        <th>Interests</th>
+                        <th></th>
+                    </tr>
+
+                    <tr>
+                        <td>EXAMPLE: Fyodor</td>
+                        <td>Dostoevsky</td>
+                        <td>dostoevsky@gmail.com</td>
+                        <td>Advanced</td>
+                        <td>Psychology, true crime, writing</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td>EXAMPLE: Winnie</td>
+                        <td>The Pooh</td>
+                        <td>winnie@gmail.com</td>
+                        <td>Beginner</td>
+                        <td>Russian cuisine, hip-hop music</td>
+                        <td></td>
+                    </tr>
+                    </table>
+
+                    <form>
+                        <div class="form-group row">
+                          <div class="col-sm-10">
+                          <input type="text" class="form-control" id="firstName" placeholder="First name">
+                          </div>
+                        </div><br>
+                        <div class="form-group row">
+                          <div class="col-sm-10">
+                          <input type="text" class="form-control" id= "lastName" placeholder="Last name">  
+                          </div>
+                        </div><br>
+                        <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                              <input type="email" class="form-control" id="email" placeholder="Email">
+                            </div>
+                        </div><br>
+                        <fieldset class="form-group">
+                          <div class="row">
+                            <legend class="col-form-label col-sm-2 pt-0" id="languageLevel">Russian Language Level</legend>
+                            <div class="col-sm-10">
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="Beginner" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                  Beginner
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="Intermediate" value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                  Intermediate
+                                </label>
+                              </div>
+                              <div class="form-check disabled">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="Advanced" value="option3">
+                                <label class="form-check-label" for="gridRadios3">
+                                  Advanced
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </fieldset><br>
+                        <div class="form-group">
+                          <div class="row">
+                            <label for="exampleFormControlTextarea1">Interests</label>
+                            <textarea class="form-control" id="interests" rows="2"></textarea>
+                          </div>
+                        </div><br>
+                        <div class="form-group row">
+                          <div class="col-sm-10">
+                            <button type="button" id="submit" class="btn btn-secondary">Submit</button>                         
+                          </div>
+                        </div>
+                      </form>
+
+                </div>
             </div>
+    
         </div>
     </div>
-    
+
     <script scr="node_modules/jquery/dist/jquery.js"></script>
     <script scr="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="Sign-upForm.js"></script>
 
 </body>
+
+
 </html>
